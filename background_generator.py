@@ -19,9 +19,9 @@ class Colour:
     def __init__(self,code,name,r,g,b):
         self.code = code or null
         self.name = name or "Pantone Colour"
-        self.r = r or 0
-        self.g = g or 0
-        self.b = b or 0
+        self.r = r or 64647478
+        self.g = g or 56869875
+        self.b = b or 23423523
 
     def getRGB(self):
         return [self.r,self.g,self.b]
